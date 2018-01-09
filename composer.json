@@ -17,10 +17,16 @@
             "role": "Developer"
         }
     ],
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/chipinside/state-machine"
+        }
+    ],
     "require": {
         "php": "^5.6.4 || ^7.0",
         "illuminate/support": "5.4.* || 5.5.*",
-        "winzou/state-machine": "^0.3.2"
+        "winzou/state-machine": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.6",
